@@ -8,12 +8,12 @@ Automated setup script to install essential development tools, CLI utilities, an
 - Git, Neovim, Zellij (terminal multiplexer)
 - Modern CLI replacements: `fzf`, `ripgrep`, `fd`, `eza`, `bat`, `btop`
 - Development tools: `jq`, `mise`, `lazygit`, `lazydocker`, `awscli`
-- AI tools: `ollama`, `gemini-cli`, Claude CLI
+- AI tools: `ollama`, `gemini-cli`, `claude-code`, `codex cli`
 
 ### Applications
 - **Productivity**: 1Password, Raycast, Obsidian, Typora
 - **Development**: Visual Studio Code, OrbStack (Docker alternative)
-- **Communication**: WhatsApp, Zoom, Microsoft Teams, ChatGPT, Claude
+- **Communication**: WhatsApp, Zoom, Microsoft Teams, ChatGPT desktop, Claude desktop
 - **Browsers**: Brave Browser
 - **Gaming**: Steam, Heroic (Epic Games)
 - **Utilities**: LocalSend, PearCleaner
@@ -85,7 +85,7 @@ echo "✓ Your Program installed"
 2. Edit the repo coordinates in `install.sh` (lines 10-12):
    ```bash
    REPO_USER="yourusername"
-   REPO_NAME="your_repo_name" 
+   REPO_NAME="your_repo_name"
    REPO_BRANCH="main"
    ```
 3. Customize `programs/Brewfile` and add your own installers

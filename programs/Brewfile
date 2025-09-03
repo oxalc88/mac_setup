@@ -23,6 +23,7 @@ brew "vips"
 brew "gemini-cli"
 tap "sst/tap"
 brew "sst/tap/opencode"
+brew "codex"
 
 # --- Terminal ---
 cask "alacritty"
