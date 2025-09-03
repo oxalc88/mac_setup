@@ -1,0 +1,43 @@
+# --- CLI ---
+brew "git"
+brew "neovim"
+brew "zellij"
+brew "fzf"
+brew "ripgrep"
+brew "fd"
+brew "eza"
+brew "bat"
+brew "jq"
+brew "btop"
+brew "fastfetch"
+brew "zoxide"
+brew "awscli"
+brew "mise"
+brew "lazygit"
+brew "lazydocker"
+brew "ollama"
+brew "stow"
+
+# AI CLIs
+brew "claude"
+brew "gemini-cli"
+tap "sst/tap"
+brew "sst/tap/opencode"
+
+# --- Terminal ---
+cask "alacritty"
+# Fonts for icons in terminal/statuslines
+cask "font-hack-nerd-font"
+
+# --- Apps you listed ---
+cask "1password"
+cask "visual-studio-code"
+cask "brave-browser"
+cask "whatsapp"
+cask "zoom"
+cask "steam"
+cask "heroic"         # Epic Games via Heroic Launcher
+cask "orbstack"
+cask "obsidian"
+cask "localsend"
+cask "raycast"
